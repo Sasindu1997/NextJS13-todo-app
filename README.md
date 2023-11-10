@@ -2,7 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, give a npm install.
+Then, run this migration command : 
+
+```bash
+npx prisma migrate dev --name init
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
